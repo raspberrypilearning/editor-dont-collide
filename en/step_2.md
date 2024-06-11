@@ -1,59 +1,23 @@
-<h2 class="c-project-heading--task">Add a player</h2>
+## Step title
+
+Add an introductory sentence. What will learners achieve by the end of this step?
 
 --- task ---
-➡️ Create and call a function to draw the player.
---- /task --- 
+
+If working **online**, open the [starter project](https://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
  
-Define a `draw_player` function. Inside, create a circle to represent the player. 
+If working **offline**, open the project [starter file](https://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 7
-line_highlights: 8-15
----
-# Draw player function goes here
-def draw_player():   
-    fill(255, 0, 0) # Red
-    ellipse(
-        200, # x
-        320, # y
-        70,  # width
-        70   # height
-    ) 
-  
---- /code ---
-</div>
+You should see...
+ 
+![starter project](images/starter_project.png)
 
+--- /task ---
 
-Call the `draw_player` function so that the player is drawn on the screen. 
+--- task ---
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 16
-line_highlights: 20
----
+Step content...
 
-def draw():   
-    global safe
-    safe = Color(200, 100, 0) 
-    background(safe)
-    draw_player()
-  
---- /code ---
-</div>
+--- /task ---
 
-**Test:** Run your code and you should see a coloured circle appear near the bottom of the screen. 
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-You may not want your player to look like a circle, but you can make the code work with just a circle for now, and then update the way the player looks later. This is called **iterating**.
-
-</div>
+--- save ---
