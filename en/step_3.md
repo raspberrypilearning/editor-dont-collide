@@ -4,25 +4,7 @@
 ➡️ Make the player follow the mouse to move across the screen
 --- /task --- 
 
-Add a variable called `player_y` and use it to record the player's position on the y (horizontal) axis.
-
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 7
-line_highlights: 9
----
-# Draw player function goes here
-def draw_player():   
-    player_y = 320
-    fill(255, 0, 0) # Red
-  
---- /code ---
-</div>
-
-Set the player's y position to `player_y` and set the player's x position to `mouse_x`.
+The player will stay at the same y (vertical) position, but the player's x position will follow the mouse using `mouse_x`.
 
 <div class="c-project-code">
 --- code ---
@@ -34,7 +16,7 @@ line_highlights: 11-12
 ---
 ellipse(
         mouse_x, # x
-        player_y, # y
+        320, # y
         70,  # width
         70   # height
     ) 

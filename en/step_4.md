@@ -13,7 +13,7 @@ Define a `draw_obstacles` function. Inside, create a rectangle to represent **on
 language: python
 line_numbers: true
 line_number_start: 11
-line_highlights: 12-
+line_highlights: 12-18
 ---
  
 # Draw obstacles function goes here
