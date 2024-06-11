@@ -42,6 +42,7 @@ line_highlights: 39
 ---
 
 def draw():   
+    # Put code to run every frame here
     global safe
     safe = Color(200, 100, 0) 
     background(safe)
