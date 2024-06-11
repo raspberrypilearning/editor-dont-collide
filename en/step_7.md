@@ -4,7 +4,7 @@
 ➡️ Generate a random position for the obstacle 
 --- /task --- 
  
-Generate a pair of random x, y coordinates for the obstacle to start at. 
+Add a line of code for a random **seed**. A seed lets you generate the same random numbers in each frame.
 
 <div class="c-project-code">
 --- code ---
@@ -12,7 +12,27 @@ Generate a pair of random x, y coordinates for the obstacle to start at.
 language: python
 line_numbers: true
 line_number_start: 12
-line_highlights: 14-16
+line_highlights: 14
+---
+ 
+# Draw obstacles function goes here
+def draw_obstacles():
+    seed(1234)
+    obstacle_x = 200
+    obstacle_y = 200 + frame_count
+
+--- /code ---
+</div>
+
+Update the code so that the x, y coordinates for the obstacle are generated randomly.
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 12
+line_highlights: 15-16
 ---
  
 # Draw obstacles function goes here

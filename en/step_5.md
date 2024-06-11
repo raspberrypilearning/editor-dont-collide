@@ -4,7 +4,7 @@
 ➡️ Move the obstacle down the screen
 --- /task --- 
 
-Add two variables to keep track of the obstacle's x and y coordinates. Change the code to draw the emoji so that it uses these variables.  
+Add two variables to keep track of the obstacle's x and y coordinates. Update the code to draw the emoji so that it uses these variables.  
 
 <div class="c-project-code">
 --- code ---
