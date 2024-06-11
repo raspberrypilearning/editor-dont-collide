@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Moving the obstacle</h2>
+<h2 class="c-project-heading--task">Move the obstacle</h2>
 
 --- task ---
 ➡️ Move the obstacle down the screen

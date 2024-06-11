@@ -30,8 +30,8 @@ Call the `draw_obstacles` function so that the cactus is drawn on the screen.
 ---
 language: python
 line_numbers: true
-line_number_start: 34
-line_highlights: 39
+line_number_start: 22
+line_highlights: 27
 ---
 
 def draw():   
