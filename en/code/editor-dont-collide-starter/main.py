@@ -18,7 +18,7 @@ def setup():
 
 def draw():
     # Put code to run every frame here
-    pass
+    
 
   
 # Keep this to run your code

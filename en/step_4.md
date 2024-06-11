@@ -12,8 +12,8 @@ Define a `draw_obstacles` function. Inside, create a rectangle to represent **on
 ---
 language: python
 line_numbers: true
-line_number_start: 11
-line_highlights: 12-18
+line_number_start: 18
+line_highlights: 19-26
 ---
  
 # Draw obstacles function goes here
@@ -22,8 +22,8 @@ def draw_obstacles():
     rect(
         100, # x
         100, # y
-        70,  # width
-        70   # height
+        40,  # width
+        40   # height
     ) 
   
 --- /code ---
@@ -37,8 +37,8 @@ Call the `draw_obstacles` function so that the obstacle is drawn on the screen.
 ---
 language: python
 line_numbers: true
-line_number_start: 16
-line_highlights: 20
+line_number_start: 34
+line_highlights: 39
 ---
 
 def draw():   

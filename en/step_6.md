@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Wrapping around</h2>
+<h2 class="c-project-heading--task">Create multiple obstacles</h2>
 
 --- task ---
 ➡️ ???
