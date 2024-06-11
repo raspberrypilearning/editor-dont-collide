@@ -43,7 +43,7 @@ def draw_player():
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see a coloured square. 
+**Test:** Run your code and move the player. You should see the explosion emoji if your player touches an obstacle.
 
 <div class="c-project-callout c-project-callout--tip">
 

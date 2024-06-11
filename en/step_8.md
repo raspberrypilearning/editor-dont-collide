@@ -16,7 +16,7 @@ line_highlights: 15-19
 ---
  
 def draw_obstacles():
-    seed(12345)
+    seed(1234)
     for i in range(8):
         obstacle_x = randint(0, screen_size)
         obstacle_y = randint(0, screen_size) + frame_count
