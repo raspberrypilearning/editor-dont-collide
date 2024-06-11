@@ -1,32 +1,37 @@
-<h2 class="c-project-heading--task">Adding text</h2>
+<h2 class="c-project-heading--task">Lots of obstacles</h2>
 
 --- task ---
-➡️ ???
+➡️ Use a loop to generate multiple obstacles.
 --- /task --- 
  
+Add a loop and indent the code to draw an obstacle. The loop will run this code multiple times. Change the number inside `range()` to control how many obstacles are created.
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 12
+line_number_start: 13
+line_highlights: 15-19
 ---
  
-def draw():   
-    # Put code to run every frame here
-    background(0, 0, 0)    
+def draw_obstacles():
+    seed(12345)
+    for i in range(8):
+        obstacle_x = randint(0, screen_size)
+        obstacle_y = randint(0, screen_size) + frame_count
+        obstacle_y = obstacle_y % screen_size
+        text('🌵', obstacle_x, obstacle_y)
   
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see a coloured square. 
+**Test:** Run your code and you should see several obstacles. 
 
-<div class="c-project-callout c-project-callout--tip">
+<div class="c-project-callout c-project-callout--debug">
 
-### Tip
+### Debugging
 
-For a white background, choose `background(255, 255, 255)`.
+Make sure that the code for the seed is outside of the loop, otherwise all of your obstacles will be generated on top of each other!
 
 </div>

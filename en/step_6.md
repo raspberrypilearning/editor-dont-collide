@@ -6,7 +6,7 @@
  
 Currently, the obstacle disappears off the bottom of the screen, because its `obstacle_y` position becomes larger than the screen size.
 
-Use the modulo (%) operator to divide the y position by the screen size and give you the **remainder**. This make the obstacle wrap around!
+Use the modulo (%) operator to divide the y position by the screen size and give you the **remainder**. This makes the obstacle reappear at the top!
 
 <div class="c-project-code">
 --- code ---
