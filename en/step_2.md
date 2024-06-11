@@ -4,7 +4,7 @@
 ➡️ Create and call a function to draw the player.
 --- /task --- 
  
-Define a `draw_player` function. Inside, create a circle to represent the player. 
+Define a `draw_player` function. Inside, add an emoji and a pair of x, y coordinates to represent the player. 
 
 <div class="c-project-code">
 --- code ---
@@ -12,17 +12,11 @@ Define a `draw_player` function. Inside, create a circle to represent the player
 language: python
 line_numbers: true
 line_number_start: 7
-line_highlights: 8-15
+line_highlights: 8-9
 ---
 # Draw player function goes here
-def draw_player():   
-    fill(0, 0, 255) # Blue
-    ellipse(
-        200, # x
-        320, # y
-        40,  # width
-        40   # height
-    ) 
+def draw_player():
+    text('🤠', 200, 320)
   
 --- /code ---
 </div>
