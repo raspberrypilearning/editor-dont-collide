@@ -34,6 +34,6 @@ def draw():
 
 ### Tip
 
-You can use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you find the RGB value of a colour you want to use. 
+The colour is three numbers - the amount of red, green and blue. You can use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you find the values for a colour you want to use. 
 
 </div>

@@ -4,7 +4,7 @@
 ➡️ Make the player follow the mouse to move across the screen
 --- /task --- 
 
-The player will stay at the same y (vertical) position, but the player's x position will follow the mouse using `mouse_x`.
+To make the player follow the mouse as it moves from side to side, change the player's x position to `mouse_x`.
 
 <div class="c-project-code">
 --- code ---
@@ -12,7 +12,7 @@ The player will stay at the same y (vertical) position, but the player's x posit
 language: python
 line_numbers: true
 line_number_start: 10
-line_highlights: 11-12
+line_highlights: 11
 ---
 ellipse(
         mouse_x, # x
@@ -31,6 +31,6 @@ ellipse(
 
 ### Tip
 
-The variable `mouse_x` was defined automatically by p5 by the code `from p5 import *`.  
+The position of the mouse is automatically stored in `mouse_x` by the p5 library, which is imported with code `from p5 import *`.  
 
 </div>

@@ -16,12 +16,12 @@ line_highlights: 8-15
 ---
 # Draw player function goes here
 def draw_player():   
-    fill(255, 0, 0) # Red
+    fill(0, 0, 255) # Blue
     ellipse(
         200, # x
         320, # y
-        70,  # width
-        70   # height
+        40,  # width
+        40   # height
     ) 
   
 --- /code ---
@@ -35,11 +35,12 @@ Call the `draw_player` function so that the player is drawn on the screen.
 ---
 language: python
 line_numbers: true
-line_number_start: 16
-line_highlights: 20
+line_number_start: 26
+line_highlights: 31
 ---
 
-def draw():   
+def draw():  
+    # Put code to run every frame here 
     global safe
     safe = Color(200, 100, 0) 
     background(safe)
