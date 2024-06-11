@@ -4,8 +4,7 @@
 ➡️ Create and call a function to draw one obstacle.
 --- /task --- 
 
-Define a `draw_obstacles` function. Inside, create a rectangle to represent **one** obstacle. 
-
+Define a `draw_obstacles` function to draw a large cactus emoji 🌵.
 
 <div class="c-project-code">
 --- code ---
@@ -13,18 +12,13 @@ Define a `draw_obstacles` function. Inside, create a rectangle to represent **on
 language: python
 line_numbers: true
 line_number_start: 18
-line_highlights: 19-26
+line_highlights: 19-21
 ---
  
 # Draw obstacles function goes here
-def draw_obstacles():   
-    fill(0, 255, 0) # Green
-    rect(
-        100, # x
-        100, # y
-        40,  # width
-        40   # height
-    ) 
+def draw_obstacles():
+    text_size(40)
+    text('🌵', 200, 200)
   
 --- /code ---
 </div>
@@ -52,7 +46,7 @@ def draw():
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see a coloured square as well as your player circle. 
+**Test:** Run your code and you should see a cactus as well as your player circle. 
 
 <div class="c-project-callout c-project-callout--tip">
 
