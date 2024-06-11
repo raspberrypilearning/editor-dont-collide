@@ -14,6 +14,7 @@ screen_size = 400
 def setup():
     # Put code to run once here
     size(screen_size, screen_size)
+    text_size(40)
 
 
 def draw():

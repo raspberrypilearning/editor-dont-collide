@@ -2,40 +2,52 @@
 
 --- task ---
 ➡️ Move the obstacle down the screen
-➡️ Make the obstacle wrap around to the top once it goes off the bottom of the screen
 --- /task --- 
- 
+
+Add two variables to keep track of the obstacle's x and y coordinates. Change the code to draw the emoji so that it uses these variables.  
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 19
-line_highlights: 21-23,25-26
+line_number_start: 13
+line_highlights: 14-16
 ---
 
 def draw_obstacles():
-    fill(0, 255, 0) # Green
-    ob_x = 200
-    ob_y = 200 + frame_count
-    ob_y %= screen_size
-    rect(
-        ob_x, # x
-        ob_y, # y
-        40,  # width
-        40   # height
-    )  
+    obstacle_x = 200
+    obstacle_y = 200 
+    text('🌵', obstacle_x, obstacle_y) 
 
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see a coloured square. 
+Now, add `frame_count` to the obstacle's y (vertical) position. 
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 13
+line_highlights: 15
+---
+
+def draw_obstacles():
+    obstacle_x = 200
+    obstacle_y = 200 + frame_count
+    text('🌵', obstacle_x, obstacle_y) 
+
+--- /code ---
+</div>
+
+**Test:** Run your code and the cactus emoji should move down the screen until it reaches the bottom.  
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-For a white background, choose `background(255, 255, 255)`.
+The variable `frame_count` automatically starts counting the frames when you click run. This is another useful variable provided by the p5 library, from the code `from p5 import *`. 
 
 </div>

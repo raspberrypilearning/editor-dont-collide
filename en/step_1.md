@@ -15,8 +15,8 @@ In the game, the player is safe if they are touching the background colour.
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 12-14
+line_number_start: 20
+line_highlights: 22-24
 ---
  
 def draw():   

@@ -1,7 +1,7 @@
-<h2 class="c-project-heading--task">Create multiple obstacles</h2>
+<h2 class="c-project-heading--task">Wrap around</h2>
 
 --- task ---
-➡️ ???
+➡️ Make the obstacle wrap around to the top once it goes off the bottom of the screen
 --- /task --- 
  
 

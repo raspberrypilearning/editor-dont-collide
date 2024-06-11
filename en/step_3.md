@@ -11,21 +11,19 @@ To make the player follow the mouse as it moves from side to side, change the pl
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 11
+line_number_start: 7
+line_highlights: 9
 ---
-ellipse(
-        mouse_x, # x
-        320, # y
-        70,  # width
-        70   # height
-    ) 
+# Draw player function goes here
+def draw_player():
+    text('🤠', mouse_x, 320)
   
 --- /code ---
 </div>
 
 
-**Test:** Run your code and check that the player circle moves left and right when you move the mouse. 
+
+**Test:** Run your code and check that the player moves left and right when you move the mouse. 
 
 <div class="c-project-callout c-project-callout--tip">
 

@@ -29,8 +29,8 @@ Call the `draw_player` function so that the player is drawn on the screen.
 ---
 language: python
 line_numbers: true
-line_number_start: 26
-line_highlights: 31
+line_number_start: 21
+line_highlights: 26
 ---
 
 def draw():  
@@ -43,12 +43,12 @@ def draw():
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see a coloured circle appear near the bottom of the screen. 
+**Test:** Run your code and you should see the emoji appear near the bottom of the screen. 
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-You may not want your player to look like a circle, but you can make the code work with just a circle for now, and then update the way the player looks later. This is called **iterating**.
+You can choose any emoji to represent your player.
 
 </div>
