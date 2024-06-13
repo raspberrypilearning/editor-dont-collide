@@ -14,7 +14,8 @@ Now it is over to you!
 Here are some examples for things you could do using the skills you have already learned in this project:
 
 - Use different emojis to represent the player and the obstacles
-- Draw the player using shapes instead (you learned this in the [Make a face](https://projects.raspberrypi.org/en/projects/editor-make-a-face/editor){:target="_blank"} project)
+- Draw the player or the obstacles using shapes instead (you learned this in the [Make a face](https://projects.raspberrypi.org/en/projects/editor-make-a-face/editor){:target="_blank"} project)
+- Draw the player or the obstacles using images instead (you learned this in the [Rocket launch](https://projects.raspberrypi.org/en/projects/editor-rocket-launch/editor){:target="_blank"}  project)
 
 - Change one line of code to make the obstacles move faster
 - Create a variable and add one to it each time the player crashes
