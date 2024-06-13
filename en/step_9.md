@@ -52,3 +52,11 @@ def draw_player():
 The collision will be based on the colour at one specific coordinate - x=`mouse_x`, y=320. You can improve the collision detection by changing the coordinate (for example `mouse_x + 20` is closer to the centre of the emoji), or by testing multiple coordinates for potential collisions. 
 
 </div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+Make sure that in `draw()`, the line of code to `draw_obstacles()` is before `draw_player()`. If you check for collisions before drawing the obstacles in a frame, then there won’t be any obstacles to collide with!
+
+</div>
