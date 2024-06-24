@@ -7,6 +7,8 @@ copyedit: false
 last_tested: "2024-06-11"
 steps:
   - title: Choose a background colour
+    completion:
+      - engaged
   - title: Add a player
   - title: Make the player follow the mouse
   - title: Create an obstacle
@@ -15,5 +17,9 @@ steps:
   - title: Random obstacle position
   - title: Lots of obstacles
   - title: Collisions
+    completion:
+      - internal
   - title: Finish the game
+    completion:
+      - external
   - title: What next?
