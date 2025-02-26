@@ -1,59 +1,39 @@
-## Introduction
+<h2 class="c-project-heading--task">Choose a background colour</h2>
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+--- task ---
+➡️ Create a variable to store a background colour.
 
-### What you will make
+➡️ Set the background to this colour.
+--- /task --- 
+ 
+Create a variable called `safe` to store the background colour.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+In the game, the player is safe if they are touching the background colour. 
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 20
+line_highlights: 22-24
+---
+ 
+def draw():   
+    # Put code to run every frame here
+    global safe
+    safe = Color(200, 100, 0) 
+    background(safe) 
+  
+--- /code ---
 </div>
---- /no-print ---
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+**Test:** Run your code and you should see a coloured square. 
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+<div class="c-project-callout c-project-callout--tip">
 
-+ A computer or tablet capable of running Scratch 3
+### Tip
 
-### Software
+The colour is three numbers - the amount of red, green and blue. You can use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you find the values for a colour you want to use. 
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+</div>

@@ -1,7 +1,34 @@
-## What next?
+<h2 class="c-project-heading--task">Make the player follow the mouse</h2>
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+--- task ---
+➡️ Make the player follow the mouse to move across the screen
+--- /task --- 
 
-![ProjectName project](images/projectname-project.png)
+To make the player follow the mouse as it moves from side to side, change the player's x position to `mouse_x`.
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+<div class="c-project-code">
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 7
+line_highlights: 9
+---
+# Draw player function goes here
+def draw_player():
+    text('🤠', mouse_x, 320)
+  
+--- /code ---
+</div>
+
+
+
+**Test:** Run your code and check that the player moves left and right when you move the mouse. 
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+The position of the mouse is automatically stored in `mouse_x` by the p5 library, which is imported with code `from p5 import *`.  
+
+</div>
