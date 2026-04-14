@@ -1,0 +1,4 @@
+name: "Don't collide complete"
+identifier: "dont-collide-complete"
+type: "python"
+build: true

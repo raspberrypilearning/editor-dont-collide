@@ -1,8 +1,7 @@
 <h2 class="c-project-heading--task">Collisions</h2>
 
---- task ---
+### Step 1
 ➡️ Change the emoji if the player hits an obstacle.
---- /task --- 
  
 Create a variable to store the colour the player emoji is currently touching. 
 

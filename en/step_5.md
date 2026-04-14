@@ -1,8 +1,7 @@
 <h2 class="c-project-heading--task">Move the obstacle</h2>
 
---- task ---
+### Step 1
 ➡️ Move the obstacle down the screen
---- /task --- 
 
 Add two variables to keep track of the obstacle's x and y coordinates. Update the code to draw the emoji so that it uses these variables.  
 

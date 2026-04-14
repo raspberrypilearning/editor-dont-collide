@@ -1,10 +1,9 @@
 <h2 class="c-project-heading--task">Choose a background colour</h2>
 
---- task ---
+### Step 1
 ➡️ Create a variable to store a background colour.
 
 ➡️ Set the background to this colour.
---- /task --- 
  
 Create a variable called `safe` to store the background colour.
 

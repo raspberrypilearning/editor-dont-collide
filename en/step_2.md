@@ -1,8 +1,7 @@
 <h2 class="c-project-heading--task">Add a player</h2>
 
---- task ---
+### Step 1
 ➡️ Create and call a function to draw the player.
---- /task --- 
  
 Define a `draw_player` function. Inside, add an emoji and a pair of x, y coordinates to represent the player. 
 

@@ -1,8 +1,7 @@
 <h2 class="c-project-heading--task">Wrap around</h2>
 
---- task ---
+### Step 1
 ➡️ When the obstacle goes off the bottom of the screen, make it reappear at the top
---- /task --- 
  
 Currently, the obstacle disappears off the bottom of the screen, because its `obstacle_y` position becomes larger than the screen size.
 

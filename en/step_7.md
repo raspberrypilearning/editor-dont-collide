@@ -1,8 +1,7 @@
 <h2 class="c-project-heading--task">Random obstacle position</h2>
 
---- task ---
+### Step 1
 ➡️ Generate a random position for the obstacle 
---- /task --- 
  
 Add a line of code for a random **seed**. A seed lets you generate the same random numbers in each frame.
 

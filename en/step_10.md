@@ -1,10 +1,9 @@
 <h2 class="c-project-heading--task">Finish the game</h2>
 
---- task ---
+### Step 1
 Now it is over to you! 
 
 ➡️ Use the skills you have learned to finish the game.
---- /task --- 
  
 
 <div class="c-project-callout c-project-callout--tip">

@@ -1,8 +1,7 @@
 <h2 class="c-project-heading--task">Lots of obstacles</h2>
 
---- task ---
+### Step 1
 ➡️ Use a loop to generate multiple obstacles.
---- /task --- 
  
 Add a loop and indent the code to draw an obstacle. The loop will run this code multiple times. Change the number inside `range()` to control how many obstacles are created.
 

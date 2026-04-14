@@ -1,8 +1,7 @@
 <h2 class="c-project-heading--task">Make the player follow the mouse</h2>
 
---- task ---
+### Step 1
 ➡️ Make the player follow the mouse to move across the screen
---- /task --- 
 
 To make the player follow the mouse as it moves from side to side, change the player's x position to `mouse_x`.
 
