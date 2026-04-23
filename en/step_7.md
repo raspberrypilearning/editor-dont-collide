@@ -1,8 +1,9 @@
 <h2 class="c-project-heading--task">Random obstacle position</h2>
 
-### Step 1
-➡️ Generate a random position for the obstacle 
- 
+➡️ Generate a random position for the obstacle
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Add a line of code for a random **seed**. A seed lets you generate the same random numbers in each frame.
 
 <div class="c-project-code">
@@ -43,11 +44,15 @@ def draw_obstacles():
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see the cactus appear at a random position. Change the `1234` value inside the seed to another number and it will appear somewhere else. 
+## Now run your code
 
-<div class="c-project-callout c-project-callout--tip">
+You should see the cactus appear at a random position. Change the `1234` value inside the seed to another number and it will appear somewhere else.
 
 ### Tip
+<div class="c-project-callout c-project-callout--tip">
+
 This code uses `randint()` to choose a random obstacle position. Calling the random `seed()` function first means that you will always get the same random numbers. This means that the obstacles won't jump around every frame.
 
 </div>
+
+Confirm the observable result.

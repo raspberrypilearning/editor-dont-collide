@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Move the obstacle</h2>
 
-### Step 1
 ➡️ Move the obstacle down the screen
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Add two variables to keep track of the obstacle's x and y coordinates. Update the code to draw the emoji so that it uses these variables.  
 
@@ -41,12 +42,16 @@ def draw_obstacles():
 --- /code ---
 </div>
 
-**Test:** Run your code and the cactus emoji should move down the screen until it reaches the bottom.  
+## Now run your code
 
-<div class="c-project-callout c-project-callout--tip">
+The cactus emoji should move down the screen until it reaches the bottom.
 
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 The variable `frame_count` automatically starts counting the frames when you click run. This is another useful variable provided by the p5 library, from the code `from p5 import *`. 
 
 </div>
+
+Confirm the observable result.

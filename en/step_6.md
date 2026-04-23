@@ -1,8 +1,9 @@
 <h2 class="c-project-heading--task">Wrap around</h2>
 
-### Step 1
 ➡️ When the obstacle goes off the bottom of the screen, make it reappear at the top
- 
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Currently, the obstacle disappears off the bottom of the screen, because its `obstacle_y` position becomes larger than the screen size.
 
 Use the modulo (%) operator to divide the y position by the screen size and give you the **remainder**. This makes the obstacle reappear at the top!
@@ -25,12 +26,16 @@ def draw_obstacles():
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see the obstacle reach the bottom of the screen and then restart from the top.
+## Now run your code
 
-<div class="c-project-callout c-project-callout--tip">
+You should see the obstacle reach the bottom of the screen and then restart from the top.
 
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 The modulo operator gives you the **remainder** of a whole number division. So, if the y position of the cactus becomes 401, and the screen size is 400, the calculation is `401 % 400`. The number 400 goes into 401 once, and the remainder is `1`, so the cactus reappears at y coordinate 1 - neat!  
 
 </div>
+
+Confirm the observable result.

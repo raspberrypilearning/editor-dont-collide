@@ -1,14 +1,15 @@
 <h2 class="c-project-heading--task">Finish the game</h2>
 
-### Step 1
-Now it is over to you! 
+Now it is over to you!
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 ➡️ Use the skills you have learned to finish the game.
  
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 Here are some examples for things you could do using the skills you have already learned in this project:
 
@@ -27,3 +28,7 @@ Here are some examples for things you could do using the skills you have already
 - Display a text message on the screen to say 'Game over' 
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

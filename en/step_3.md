@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Make the player follow the mouse</h2>
 
-### Step 1
 ➡️ Make the player follow the mouse to move across the screen
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 To make the player follow the mouse as it moves from side to side, change the player's x position to `mouse_x`.
 
@@ -20,14 +21,16 @@ def draw_player():
 --- /code ---
 </div>
 
+## Now run your code
 
-
-**Test:** Run your code and check that the player moves left and right when you move the mouse. 
-
-<div class="c-project-callout c-project-callout--tip">
+Check that the player moves left and right when you move the mouse.
 
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 The position of the mouse is automatically stored in `mouse_x` by the p5 library, which is imported with code `from p5 import *`.  
 
 </div>
+
+Confirm the observable result.

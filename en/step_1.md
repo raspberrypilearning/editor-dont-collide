@@ -1,7 +1,8 @@
 <h2 class="c-project-heading--task">Choose a background colour</h2>
 
-### Step 1
 ➡️ Create a variable to store a background colour.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 ➡️ Set the background to this colour.
  
@@ -27,12 +28,16 @@ def draw():
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see a coloured square. 
+## Now run your code
 
-<div class="c-project-callout c-project-callout--tip">
+You should see a coloured square.
 
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 The colour is three numbers - the amount of red, green and blue. You can use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you find the values for a colour you want to use. 
 
 </div>
+
+Confirm the observable result.
