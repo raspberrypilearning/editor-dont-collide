@@ -55,4 +55,4 @@ You can choose any emoji to represent your player.
 
 </div>
 
-Confirm the observable result.
+Run your code and check that the player emoji appears near the bottom of the screen.

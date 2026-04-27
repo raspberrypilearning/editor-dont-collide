@@ -40,4 +40,4 @@ The colour is three numbers - the amount of red, green and blue. You can use a [
 
 </div>
 
-Confirm the observable result.
+Run your code and check that you see a coloured square.

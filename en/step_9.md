@@ -45,8 +45,6 @@ def draw_player():
 
 ## Now run your code
 
-Move the player. You should see the explosion emoji if your player touches an obstacle.
-
 ### Tip
 
 <div class="c-project-callout c-project-callout--tip">
@@ -63,4 +61,4 @@ Make sure that in `draw()`, the line of code to `draw_obstacles()` is before `dr
 
 </div>
 
-Confirm the observable result.
+Move the player and check that an explosion emoji appears if your player touches an obstacle.

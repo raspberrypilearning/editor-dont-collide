@@ -23,8 +23,6 @@ def draw_player():
 
 ## Now run your code
 
-Check that the player moves left and right when you move the mouse.
-
 ### Tip
 
 <div class="c-project-callout c-project-callout--tip">
@@ -33,4 +31,4 @@ The position of the mouse is automatically stored in `mouse_x` by the p5 library
 
 </div>
 
-Confirm the observable result.
+Run your code and check that the player moves left and right when you move the mouse.

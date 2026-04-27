@@ -38,4 +38,4 @@ The modulo operator gives you the **remainder** of a whole number division. So, 
 
 </div>
 
-Confirm the observable result.
+Run your code and check that the obstacle reaches the bottom and then restarts from the top.

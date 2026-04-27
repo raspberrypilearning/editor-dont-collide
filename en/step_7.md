@@ -55,4 +55,4 @@ This code uses `randint()` to choose a random obstacle position. Calling the ran
 
 </div>
 
-Confirm the observable result.
+Run your code and check that the cactus appears at a random position.

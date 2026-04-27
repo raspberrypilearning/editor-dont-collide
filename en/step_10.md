@@ -31,4 +31,4 @@ Here are some examples for things you could do using the skills you have already
 
 ## Now run your code
 
-Confirm the observable result.
+Run your code and check that the extra game feature you added works the way you planned.

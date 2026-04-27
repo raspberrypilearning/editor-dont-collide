@@ -54,4 +54,4 @@ The variable `frame_count` automatically starts counting the frames when you cli
 
 </div>
 
-Confirm the observable result.
+Run your code and check that the cactus moves down the screen.

@@ -49,4 +49,4 @@ def draw():
 
 You should see a cactus as well as your player.
 
-Confirm the observable result.
+Run your code and check that you see a cactus as well as your player.

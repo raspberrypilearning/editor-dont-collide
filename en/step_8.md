@@ -38,4 +38,4 @@ Make sure that the code for the seed is outside of the loop, otherwise all of yo
 
 </div>
 
-Confirm the observable result.
+Run your code and check that several obstacles appear on the screen.
