@@ -2,8 +2,6 @@
 
 ➡️ Use a loop to generate multiple obstacles.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Add a loop and indent the code to draw an obstacle. The loop will run this code multiple times. Change the number inside `range()` to control how many obstacles are created.
 
 <div class="c-project-code">
