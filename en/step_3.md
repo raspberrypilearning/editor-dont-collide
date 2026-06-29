@@ -2,8 +2,6 @@
 
 ➡️ Make the player follow the mouse to move across the screen
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 To make the player follow the mouse as it moves from side to side, change the player's x position to `mouse_x`.
 
 <div class="c-project-code">
