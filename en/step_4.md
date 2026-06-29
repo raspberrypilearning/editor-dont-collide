@@ -2,8 +2,6 @@
 
 ➡️ Create and call a function to draw one obstacle.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Define a `draw_obstacles` function to draw a cactus emoji 🌵.
 
 <div class="c-project-code">
