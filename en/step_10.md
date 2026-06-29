@@ -2,8 +2,6 @@
 
 Now it is over to you!
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ➡️ Use the skills you have learned to finish the game.
  
 
