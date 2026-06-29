@@ -2,8 +2,6 @@
 
 ➡️ Change the emoji if the player hits an obstacle.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Create a variable to store the colour the player emoji is currently touching. 
 
 <div class="c-project-code">
