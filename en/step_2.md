@@ -2,8 +2,6 @@
 
 ➡️ Create and call a function to draw the player.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Define a `draw_player` function. Inside, add an emoji and a pair of x, y coordinates to represent the player. 
 
 <div class="c-project-code">
