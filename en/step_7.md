@@ -2,8 +2,6 @@
 
 ➡️ Generate a random position for the obstacle
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Add a line of code for a random **seed**. A seed lets you generate the same random numbers in each frame.
 
 <div class="c-project-code">
