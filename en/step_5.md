@@ -2,8 +2,6 @@
 
 ➡️ Move the obstacle down the screen
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Add two variables to keep track of the obstacle's x and y coordinates. Update the code to draw the emoji so that it uses these variables.  
 
 <div class="c-project-code">
