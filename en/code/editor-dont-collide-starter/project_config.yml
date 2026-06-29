@@ -1,3 +1,4 @@
 name: "Don't collide"
 identifier: "editor-dont-collide-starter"
 type: 'python'
+build: true

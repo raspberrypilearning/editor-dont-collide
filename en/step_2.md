@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Add a player</h2>
 
---- task ---
 ➡️ Create and call a function to draw the player.
---- /task --- 
- 
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Define a `draw_player` function. Inside, add an emoji and a pair of x, y coordinates to represent the player. 
 
 <div class="c-project-code">
@@ -43,12 +43,16 @@ def draw():
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see the emoji appear near the bottom of the screen. 
+## Now run your code
 
-<div class="c-project-callout c-project-callout--tip">
+You should see the emoji appear near the bottom of the screen.
 
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 You can choose any emoji to represent your player.
 
 </div>
+
+Run your code and check that the player emoji appears near the bottom of the screen.

@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Lots of obstacles</h2>
 
---- task ---
 ➡️ Use a loop to generate multiple obstacles.
---- /task --- 
- 
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Add a loop and indent the code to draw an obstacle. The loop will run this code multiple times. Change the number inside `range()` to control how many obstacles are created.
 
 <div class="c-project-code">
@@ -26,12 +26,16 @@ def draw_obstacles():
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see several obstacles. 
+## Now run your code
 
-<div class="c-project-callout c-project-callout--debug">
+You should see several obstacles.
 
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 Make sure that the code for the seed is outside of the loop, otherwise all of your obstacles will be generated on top of each other!
 
 </div>
+
+Run your code and check that several obstacles appear on the screen.

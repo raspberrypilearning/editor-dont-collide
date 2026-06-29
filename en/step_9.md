@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Collisions</h2>
 
---- task ---
 ➡️ Change the emoji if the player hits an obstacle.
---- /task --- 
- 
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Create a variable to store the colour the player emoji is currently touching. 
 
 <div class="c-project-code">
@@ -43,20 +43,22 @@ def draw_player():
 --- /code ---
 </div>
 
-**Test:** Run your code and move the player. You should see the explosion emoji if your player touches an obstacle.
-
-<div class="c-project-callout c-project-callout--tip">
+## Now run your code
 
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 The collision will be based on the colour at one specific coordinate - x=`mouse_x`, y=320. You can improve the collision detection by changing the coordinate (for example `mouse_x + 20` is closer to the centre of the emoji), or by testing multiple coordinates for potential collisions. 
 
 </div>
 
-<div class="c-project-callout c-project-callout--debug">
-
 ### Debugging
+
+<div class="c-project-callout c-project-callout--debug">
 
 Make sure that in `draw()`, the line of code to `draw_obstacles()` is before `draw_player()`. If you check for collisions before drawing the obstacles in a frame, then there won’t be any obstacles to collide with!
 
 </div>
+
+Move the player and check that an explosion emoji appears if your player touches an obstacle.

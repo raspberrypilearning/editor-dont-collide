@@ -1,8 +1,8 @@
 <h2 class="c-project-heading--task">Create an obstacle</h2>
 
---- task ---
 ➡️ Create and call a function to draw one obstacle.
---- /task --- 
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 Define a `draw_obstacles` function to draw a cactus emoji 🌵.
 
@@ -45,6 +45,8 @@ def draw():
 --- /code ---
 </div>
 
-**Test:** Run your code and you should see a cactus as well as your player. 
+## Now run your code
 
+You should see a cactus as well as your player.
 
+Run your code and check that you see a cactus as well as your player.

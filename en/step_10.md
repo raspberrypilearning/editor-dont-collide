@@ -1,15 +1,15 @@
 <h2 class="c-project-heading--task">Finish the game</h2>
 
---- task ---
-Now it is over to you! 
+Now it is over to you!
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 ➡️ Use the skills you have learned to finish the game.
---- /task --- 
  
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 Here are some examples for things you could do using the skills you have already learned in this project:
 
@@ -28,3 +28,7 @@ Here are some examples for things you could do using the skills you have already
 - Display a text message on the screen to say 'Game over' 
 
 </div>
+
+## Now run your code
+
+Run your code and check that the extra game feature you added works the way you planned.

@@ -4,13 +4,13 @@ description: Build an endless runner game where your character must avoid collid
 version: 4
 listed: true
 copyedit: false
-landing: true
 last_tested: "2024-06-11"
+landing: true
 steps:
   - title: Choose a background colour
+  - title: Add a player
     completion:
       - engaged
-  - title: Add a player
   - title: Make the player follow the mouse
   - title: Create an obstacle
   - title: Move the obstacle
@@ -18,9 +18,7 @@ steps:
   - title: Random obstacle position
   - title: Lots of obstacles
   - title: Collisions
-    completion:
-      - internal
   - title: Finish the game
     completion:
+      - internal
       - external
-  - title: What can you do now?
