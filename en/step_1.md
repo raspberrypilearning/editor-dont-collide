@@ -2,8 +2,6 @@
 
 ➡️ Create a variable to store a background colour.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ➡️ Set the background to this colour.
  
 Create a variable called `safe` to store the background colour.
