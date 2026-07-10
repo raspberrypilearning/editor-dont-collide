@@ -1,21 +1,14 @@
-<h2 class="c-project-heading--task">Choose a background colour</h2>
+## Choose a background colour
 
 ➡️ Create a variable to store a background colour.
 
 ➡️ Set the background to this colour.
- 
+
 Create a variable called `safe` to store the background colour.
 
 In the game, the player is safe if they are touching the background colour. 
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 20
-line_highlights: 22-24
----
+```python filename="main.py" line_numbers="true" line_number_start="20" line_highlights="22-24"
  
 def draw():   
     # Put code to run every frame here
@@ -23,19 +16,12 @@ def draw():
     safe = Color(200, 100, 0) 
     background(safe) 
   
---- /code ---
-</div>
+```
 
 ## Now run your code
 
 You should see a coloured square.
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-The colour is three numbers - the amount of red, green and blue. You can use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you find the values for a colour you want to use. 
-
-</div>
-
-Run your code and check that you see a coloured square.
+> [!TIP]
+>
+> The colour is three numbers - the amount of red, green and blue. You can use a [colour picker](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} to help you find the values for a colour you want to use.

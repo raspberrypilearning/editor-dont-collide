@@ -1,35 +1,23 @@
-<h2 class="c-project-heading--task">Add a player</h2>
+## Add a player
 
 ➡️ Create and call a function to draw the player.
 
+## Step 1
+
 Define a `draw_player` function. Inside, add an emoji and a pair of x, y coordinates to represent the player. 
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 7
-line_highlights: 8-9
----
+```python filename="main.py" line_numbers="true" line_number_start="7" line_highlights="8-9"
 # Draw player function goes here
 def draw_player():
     text('🤠', 200, 320)
   
---- /code ---
-</div>
+```
 
+## Step 2
 
 Call the `draw_player` function so that the player is drawn on the screen. 
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 21
-line_highlights: 26
----
+```python filename="main.py" line_numbers="true" line_number_start="21" line_highlights="26"
 
 def draw():  
     # Put code to run every frame here 
@@ -38,19 +26,12 @@ def draw():
     background(safe)
     draw_player()
   
---- /code ---
-</div>
+```
 
 ## Now run your code
 
 You should see the emoji appear near the bottom of the screen.
 
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-You can choose any emoji to represent your player.
-
-</div>
-
-Run your code and check that the player emoji appears near the bottom of the screen.
+> [!TIP]
+>
+> You can choose any emoji to represent your player.
