@@ -1,36 +1,24 @@
-<h2 class="c-project-heading--task">Create an obstacle</h2>
+## Create an obstacle
 
 ➡️ Create and call a function to draw one obstacle.
 
+## Step 1
+
 Define a `draw_obstacles` function to draw a cactus emoji 🌵.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 12
-line_highlights: 13-14
----
+```python filename="main.py" line_numbers="true" line_number_start="12" line_highlights="13-14"
  
 # Draw obstacles function goes here
 def draw_obstacles():
     text('🌵', 200, 200)
   
---- /code ---
-</div>
+```
 
+## Step 2
 
 Call the `draw_obstacles` function so that the cactus is drawn on the screen. 
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 22
-line_highlights: 27
----
+```python filename="main.py" line_numbers="true" line_number_start="22" line_highlights="27"
 
 def draw():   
     # Put code to run every frame here
@@ -40,11 +28,8 @@ def draw():
     draw_obstacles()
     draw_player()
   
---- /code ---
-</div>
+```
 
 ## Now run your code
 
 You should see a cactus as well as your player.
-
-Run your code and check that you see a cactus as well as your player.
