@@ -2,7 +2,6 @@ from p5 import *
 from random import randint, seed
 
 screen_size = 400
-safe = Color(200, 100, 0)
 player_emoji = "🤠"
 crash_emoji = "💥"
 obstacle_emoji = "🌵"
@@ -58,8 +57,9 @@ def setup():
 
 
 def draw():
-    global frames_survived, score, game_over
+    global safe, frames_survived, score, game_over
 
+    safe = Color(200, 100, 0)
     background(safe)
     draw_obstacles()
     draw_hud()
